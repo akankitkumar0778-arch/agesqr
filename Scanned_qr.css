@@ -1,0 +1,218 @@
+.Scanned_Qr_heading *{
+    background-color: transparent;
+}
+
+.Scanned_Qr_project_name{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.Scanned_Qr_heading{
+    padding:1rem;
+    display:flex;
+    justify-content:space-around;
+    gap:1rem;
+    align-items:center;
+    background-color: transparent;
+}
+
+.Scanned_Qr_heading h3{
+    font-size:1.5rem;
+    color:rgba(34,211,238,1);
+}
+
+.Scanned_Qr_heading div{
+    display:flex;
+    color:#f8fafc;
+}
+
+.icon_button_qr{
+    color:white;
+}
+
+.Scanned_Qr_heading div button{
+    border:none;
+    font-size:0.9rem;
+    padding: 0.5rem 0.8rem;
+    font-weight:600;
+    display: flex;
+    align-items: center;
+    gap:0.3rem;
+    color:white;
+    width:fit-content;
+    border-radius:0.5rem;
+    background-color:#0891B2;
+    cursor: pointer;
+}
+
+#emergency_contant_btn{
+    background-color: rgba(255,0,0,1);
+}
+
+.Scanned_Qr_heading div button:hover{
+    opacity:0.75;
+}
+
+.headerInfo{
+    background-color:#1e293b;
+    border:2px solid rgb(51,65,85);
+    padding:0.2rem 0.5rem; 
+    border-radius: 1rem;
+    font-size: 0.8rem;
+}
+
+.headerInfo div{
+    gap:0.2rem;
+}
+
+.headerInfo div p{
+    font-weight: 600;
+}
+
+.detail_containeer{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.detail_containeer div> *{
+    background-color:transparent;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.Emergency_contect_access{
+    width:30%;
+}
+
+.Medical_Directives{
+    padding:1rem;
+    width:30%;
+    background-color:rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius:1rem;
+    border:2px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.all_Critical_Information{
+    width:30%;
+}
+
+.Medical_Reports,
+.Critical_Information{
+    border:2px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    background-color:rgba(30, 41, 59, 0.7) !important;
+    border-radius:1rem;
+}
+
+.Critical_Information{
+    height:65%;
+    color:#fca5a5;
+    padding:1rem;
+}
+
+.detail_containeer h3{
+    color:#33d6ff;  
+    font-weight:700;
+}
+
+.Medical_Directives div{
+    border:1px solid #566579;
+    border-radius:0.4rem;
+    margin-bottom:0.5rem;
+    padding:0rem 1rem;
+}
+
+.Medical_Directives div span{
+    color:#66e0ff;
+    font-weight:600;
+    font-size:0.95rem;
+}
+
+.Medical_Directives div p,
+.Critical_Information div p{
+    font-size:0.7rem;
+    color:rgba(255, 255, 255, 0.8);
+}
+
+
+.Critical_Information h2{
+    font-weight:600;
+    color:#fca5a5;
+    font-size:1.2rem;
+}
+
+.Critical_Information div{
+    border:1px solid  rgba(239,68,68);
+    border-radius:0.4rem;
+    margin-bottom:0.5rem;
+    width:100%;
+    padding:0rem 1rem;
+    background-color:rgb(127 29 29 / 0.2);
+
+}
+
+.Critical_Information div span{
+    font-weight:600;
+    font-size:0.95rem;
+}
+
+.Medical_Reports{
+    height:30%;
+    padding:1rem;
+    display:flex;
+    justify-content:space-between;
+}
+
+.Medical_Reports div{
+    border:1px solid rgba(255,255,255,0.6);
+    padding:0.1rem 0.6rem;
+    border-radius:0.5rem;
+    width:100%;
+    color:white;
+}
+
+.Emergency_conatct_private{
+    border:2px solid rgba(255, 255, 255, 0.1);
+    border-radius:1rem;
+    background-color:rgba(30, 41, 59, 0.7) !important;
+    backdrop-filter: blur(10px);
+    height:65%;
+}
+
+.proxy_details{
+    border:2px solid rgba(255, 255, 255, 0.1);
+    border-radius:1rem;
+    background-color:rgba(30, 41, 59, 0.7) !important;
+    backdrop-filter: blur(10px);
+    height:30%;
+    padding:1rem;
+    display:flex;
+    justify-content:space-between;
+}
+
+#proxy_each_details button{
+    border:1px solid green;
+    background-color:green;
+    cursor:pointer;
+}
+
+#proxy_each_details button:hover{
+    opacity:0.8;
+}
+
+.all_emergency_btns{
+    display:flex;
+    gap:1rem;
+    padding:0rem 2rem;
+    margin:2rem 0rem;
+}
+
+
+.all_emergency_btns button{
+    flex:1;
+    height:4rem;
+}

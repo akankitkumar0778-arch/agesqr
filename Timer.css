@@ -1,0 +1,19 @@
+.timer_clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0rem;
+    background-color: transparent;
+    border-radius: 1rem;
+    border:2px solid rgb(6,182,212) ;
+    width:fit-content;
+    padding:0.1rem 1.2rem;
+}
+
+.timer_clock *{
+    background-color: transparent;
+}
+
+.timer_clock{
+    color:#22d3ee;
+}

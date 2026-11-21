@@ -1,0 +1,21 @@
+.full_logo{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    background-color:transparent;
+}
+
+.full_logo > *{
+    background-color:transparent;
+}
+
+.Name_project{
+    font-size:25px;
+    color:white;
+    font-weight:600;
+}
+
+.my_logo_image{
+    height:60px;
+    object-fit:contain;
+}
